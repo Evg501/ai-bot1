@@ -18,7 +18,7 @@ def generate_comment(post_text):
         "Content-Type": "application/json"
     }
 
-    prompt = f"Напиши короткий, интересный комментарий к следующему посту: {post_text}"
+    prompt = f"Напиши короткий, интересный комментарий на русском языке к следующему посту: {post_text}"
 
     payload = {
         "model": MODEL_NAME,
